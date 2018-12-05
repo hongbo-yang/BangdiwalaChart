@@ -5,8 +5,10 @@ vers <- paste("R package version", meta$Version)
 
 citEntry(entry = "Manual",
   title = "BangdiwalaChart: Bangdiwala Chart Function",
-  author = "Chaitra Nagaraja", "Haikady Nagaraja",
-  "Pankaj Choudhary", "Hongbo Yang",
+  author = personList(as.person("Chaitra Nagaraja"),
+                  as.person("Haikady Nagaraja"),
+                  as.person("Pankaj Choudhary"),
+                  as.person("Hongbo Yang")),
   year = year,
   note = vers
 )
