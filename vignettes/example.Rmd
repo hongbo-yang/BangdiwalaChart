@@ -1,0 +1,63 @@
+---
+title: "An Example of Using Bangdiwala Chart"
+author: 
+- Chaitra Nagaraja
+- Haikady Nagaraja
+- Pankaj Choudhary
+- Hongbo Yang"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{An Example of Using Bangdiwala Chart}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Load The Package
+
+Install the package from CRAN.
+```{r,eval=FALSE, install_cran}
+install.packages("BangdiwalaChart")
+```
+
+To get the latest development version from GitHub:
+
+```{r, eval=FALSE, install}
+# install.packages('devtools')
+devtools::install_github('hongbo-yang/BangdiwalaChart')
+```
+
+Load the package.
+```{r,eval=FALSE,loadlib}
+library(BangdiwalaChart)
+```
+
+## Information on Bangdiwala Chart
+
+Constructed using "The agreement chart" by Shrikant I Bangdiwala. To learn more about Bangdiwala Chart, see
+<http://www.stat.ncsu.edu/information/library/mimeo.archive/ISMS_1988_1859.pdf>, and
+book: <http://www.utdallas.edu/~pkc022000/agreement_book/> chapter 12: Categorical Data.
+
+## Example
+
+#### Multiple Sclerosis Data 
+
+MS Patients data (New Orelans and Winnipeg patients combined).
+For original data, see: 
+(1) Westlund, K. B. and Kurland, L. T. (1953). Studies on multiple sclerosis in Winnipeg, Manitoba, and New Orleans, Louisiana I. Prevalence; comparison between the patient groups in Winnipeg and New Orleans. American Journal of Hygiene 57, 380–396.
+(2) MSPatients in vcd R package. 
+
+```{r fig1, fig.height=5,fig.width=6}
+library(BangdiwalaChart)
+data.x <-matrix(c(43, 36, 12, 4,
+                  8, 22, 27, 9, 
+                  0, 7, 8, 7, 
+                  1, 0, 10, 24), nrow=4, byrow=FALSE)
+dimnames(data.x) <- list("neurologist 1 rating"=c(1:4),
+                         "neurologist 2 rating"=c(1:4))
+data.x <- as.table(t(data.x))		
+
+bangdiwala_chart(x=data.x, main=NULL, add.B.hat=FALSE)
+
+```
+

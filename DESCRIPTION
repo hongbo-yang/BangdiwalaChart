@@ -1,0 +1,30 @@
+Package: BangdiwalaChart
+Title: Bangdiwala Chart Function
+Version: 0.1.0
+Authors@R: c(
+    person("Chaitra", "Nagaraja", role = "aut"),
+    person("Haikady", "Nagaraja", role = "aut"),
+    person("Pankaj", "Choudhary", role = "aut"),
+    person("Hongbo", "Yang", email = "hongboyang.stat@gmail.com", role = c("aut","cre"))
+    )
+Maintainer: Hongbo Yang <hongboyang.stat@gmail.com>
+Description: A function for creating a Bangdiwala Chart. 
+    Constructed using "The agreement chart" by Shrikant I Bangdiwala. 
+    To learn more about Bangdiwala Chart, see 
+    <http://www.stat.ncsu.edu/information/library/mimeo.archive/ISMS_1988_1859.pdf>, and
+    book: <http://www.utdallas.edu/~pkc022000/agreement_book/> chapter 12: Categorical Data.
+URL: http://github.com/hongbo-yang/BangdiwalaChart
+BugReports: http://github.com/hongbo-yang/BangdiwalaChart/issues
+Depends: R (>= 3.3.3)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+Packaged: 2018-12-05 14:47:37 CDT
+Repository: CRAN
+Date/Publication: 2018-12-05 15:20:41 CDT
