@@ -10,5 +10,5 @@ citEntry(entry = "Manual",
                   as.person("Pankaj Choudhary"),
                   as.person("Hongbo Yang")),
   year = year,
-  note = vers
+  note = vers,
 )
