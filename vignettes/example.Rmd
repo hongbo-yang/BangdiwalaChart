@@ -4,7 +4,7 @@ author:
 - Chaitra Nagaraja
 - Haikady Nagaraja
 - Pankaj Choudhary
-- Hongbo Yang"
+- Hongbo Yang
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
