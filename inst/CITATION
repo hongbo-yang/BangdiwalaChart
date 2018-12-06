@@ -11,11 +11,8 @@ citEntry(entry = "Manual",
                   as.person("Hongbo Yang")),
   year = year,
   note = vers,
-<<<<<<< HEAD
   textVersion = paste("Chaitra Nagaraja, Haikady Nagaraja, Pankaj Choudhary, Hongbo Yang (",
   year,
   "). BangdiwalaChart: Bangdiwala Chart Function. ",
   vers, ".", sep="")
-=======
->>>>>>> 231cf6d608f80daf8b9f1599616a57290e7a4484
 )
