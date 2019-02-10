@@ -5,9 +5,9 @@ Authors@R: c(
     person("Chaitra", "Nagaraja", role = "aut"),
     person("Haikady", "Nagaraja", role = "aut"),
     person("Pankaj", "Choudhary", role = "aut"),
-    person("Hongbo", "Yang", email = "hongboyang.stat@gmail.com", role = c("aut","cre"))
+    person("Hongbo", "Yang", email = "hongbo.yang@hotmail.com", role = c("aut","cre"))
     )
-Maintainer: Hongbo Yang <hongboyang.stat@gmail.com>
+Maintainer: Hongbo Yang <hongbo.yang@hotmail.com>
 Description: A function for creating a Bangdiwala Chart. 
     Constructed using "The agreement chart" by Shrikant I Bangdiwala. 
     To learn more about Bangdiwala Chart, see 
