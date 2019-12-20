@@ -8,9 +8,9 @@ The goal of BangdiwalaChart is to draw a Bangdiwala Chart. Constructed using "Th
 Installation
 ------------
 
-You can install the released version of BangdiwalaChart from [CRAN](https://CRAN.R-project.org) with:
+You can install the latest version of BangdiwalaChart from Github with:
 
-`r install.packages("BangdiwalaChart")`
+`r devtools::install_github('hongbo-yang/BangdiwalaChart')`
 
 Example
 -------

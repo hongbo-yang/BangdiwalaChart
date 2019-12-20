@@ -20,10 +20,10 @@ book: <http://www.utdallas.edu/~pkc022000/agreement_book/> chapter 12: Categoric
 
 ## Installation
 
-You can install the released version of BangdiwalaChart from [CRAN](https://CRAN.R-project.org) with:
+You can install the latest version of BangdiwalaChart from Github with:
 
   ``` r
-install.packages("BangdiwalaChart")
+devtools::install_github('hongbo-yang/BangdiwalaChart')
 ```
 
 ## Example

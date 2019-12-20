@@ -26,5 +26,4 @@ Suggests:
     testthat
 VignetteBuilder: knitr
 Packaged: 2018-12-05 14:47:37 CDT
-Repository: CRAN
 Date/Publication: 2018-12-05 15:20:41 CDT

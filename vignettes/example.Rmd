@@ -15,12 +15,7 @@ vignette: >
 
 ## Load The Package
 
-Install the package from CRAN.
-```{r,eval=FALSE, install_cran}
-install.packages("BangdiwalaChart")
-```
-
-To get the latest development version from GitHub:
+Install the package from GitHub:
 
 ```{r, eval=FALSE, install}
 # install.packages('devtools')
